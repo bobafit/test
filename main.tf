@@ -3,6 +3,11 @@ resource "azurerm_resource_group" "rg_test_charley" {
   location = "France Central"
 }
 
+resource "azurerm_resource_group" "rg_test_charley2" {
+  name     = "rg-charley-test"
+  location = "France Central"
+}
+
 
 resource "azurerm_storage_account" "SA" {
   name                     = "storaametest0255254"
